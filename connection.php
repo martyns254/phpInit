@@ -10,4 +10,4 @@ if(!$db){
     die("Connection to DB failed". mysqli_error($db));
 }else {
     echo "it works";
-}
+} 
