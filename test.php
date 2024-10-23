@@ -54,6 +54,7 @@
             <form method="POST" action="registration.php">
                 <input type="text" name="name" placeholder="Your Name" required>
                 <input type="text" name="email" placeholder="Your email" required>
+                <input type="text" name="Residence" placeholder="Your Residence" required>
                 <textarea name="message" placeholder="Your Message" required></textarea>
                 <input type="submit" name="submitForm" value="Submit">
             </form>
