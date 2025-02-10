@@ -15,7 +15,7 @@ $db = new mysqli($servername, $username, $password, $db_name);
 
     $result = mysqli_query($db, $sql);
     if($result = TRUE) {
-        echo "Registration successful";
+        echo "Registration successful!";
     }else {
         echo "Error: ". $sql . mysqli_error($db);
     }
